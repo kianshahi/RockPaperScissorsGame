@@ -36,26 +36,26 @@ while True:
 # Compare the player's choice with the computer's choice
   if player == computer:
     print("Computer: ", computer)
-    print("player: ", player)
+    print("Player: ", player)
     print('Tie!')
   elif player == "paper":
     if computer == "rock":
       print("Computer: ", computer)
-      print("player: ", player)
+      print("Player: ", player)
       print("You win!")
     else:
       print("Computer : ", computer)
-      print("player: ", player)
+      print("Player: ", player)
       print("You lose!")
   elif player == "rock":
     if computer == "scissors":
       print("Computer: ", computer)
-      print("player: ", player)
+      print("Player: ", player)
       print("You win!")
     else:
       print("Computer: ", computer)
-      print("player: ", player)
-      print("you lose!")
+      print("Player: ", player)
+      print("You lose!")
   elif player == "scissors":
     if computer == "paper":
       print("Computer: ", computer)
